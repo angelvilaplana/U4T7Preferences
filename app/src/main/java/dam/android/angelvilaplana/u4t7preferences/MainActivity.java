@@ -1,11 +1,8 @@
 package dam.android.angelvilaplana.u4t7preferences;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.os.Parcelable;
-import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
@@ -152,11 +149,6 @@ public class MainActivity extends AppCompatActivity {
         spinnerBackground.setSelection(sharedPreferences.getInt("Background" , 0));
         rbDifficulty.check(sharedPreferences.getInt("Difficulty" , R.id.rbEasy));
         cbSound.setChecked(sharedPreferences.getBoolean("SoundActive", true));
-    }
-
-    public Preferences getPreferences() {
-        preferences = new Preferences(this);
-        return preferences;
     }
 
 }

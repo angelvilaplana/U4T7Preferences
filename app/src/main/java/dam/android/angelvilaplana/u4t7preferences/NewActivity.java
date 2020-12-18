@@ -1,8 +1,6 @@
 package dam.android.angelvilaplana.u4t7preferences;
 
 import android.content.SharedPreferences;
-import android.widget.ArrayAdapter;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
