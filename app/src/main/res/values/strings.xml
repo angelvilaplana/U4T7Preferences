@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">U4T7Preferences</string>
+    <string name="tvPlayerName">Player Name</string>
+    <string name="tvLevel">Level</string>
+    <string name="tvScore">Score</string>
+    <string name="tvDifficulty">Difficulty</string>
+    <string name="tvBackground">Background</string>
+    <string name="tvPreferences">Preferences</string>
+    <string name="cbSound">Sound Active</string>
+    <string name="rbEasy">Easy</string>
+    <string name="rbNormal">Normal</string>
+    <string name="rbHard">Hard</string>
+    <string name="rbVeryHard">Very Hard</string>
+    <string name="rbExpert">Expert</string>
+    <string name="rbGetSharedPreferences">getSharedPreferences</string>
+    <string name="rbGetPreferences">getPreferences</string>
+    <string name="rbGetDefaultSharedPreferences">getDefaultSharedPreferences</string>
+    <string name="btPreferencesFile">Show Preferences File</string>
+    <string name="tvInfoEmpty">No data...</string>
+</resources>
